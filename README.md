@@ -1,0 +1,2 @@
+# getstoraged
+Classadoo generated repo
