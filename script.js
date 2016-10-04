@@ -4,10 +4,10 @@ input.keydown(function(e) {
   if (e.which == "13") {
     console.log("stuff");
     var valueToSave = input.val();
-    storeValue("fine", valueToSave);
+    storeValue("davidsVariable", valueToSave);
   }
 })
 
-onNewValue("fin", function(value) {
+onNewValue("davidsVariable", function(value) {
   $("#value-output").html(value)
 })
