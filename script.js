@@ -1,7 +1,7 @@
-var input = $("#not-a-real-id")
+var input = $("#value-input")
 
 input.keydown(function(e) {	
-  if (e.keyCode == "13") {
+  if (e.which == "13") {
     console.log("stuff");
     var valueToSave = input.val();
     storeValue("BobsVariable", valueToSave);
