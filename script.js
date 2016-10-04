@@ -4,10 +4,10 @@ input.keydown(function(e) {
   if (e.which == "13") {
     console.log("stuff");
     var valueToSave = input.val();
-    storeValue("", valueToSave);
+    storeValue("fine", valueToSave);
   }
 })
 
-onNewValue("little_apple", function(value) {
+onNewValue("fin", function(value) {
   $("#value-output").html(value)
 })
